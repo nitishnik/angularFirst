@@ -3,6 +3,9 @@
   <h1>
     Welcome to {{ title }}!
   </h1>
-  <app-child></app-child>
+  <app-child>
+    date: <input #name>
+    <button (click) = "onClick(name.value)">Submit</button>
+  </app-child>
 </div>
 <router-outlet></router-outlet>

@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ngHome01';
+  say = 'hello!';
+  onClick() {
+    alert('I alive!');
+  }
 }
